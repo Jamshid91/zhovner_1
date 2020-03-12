@@ -1,0 +1,59 @@
+@media screen and (max-width:992px) {
+  body {
+    font-size: 20px;
+
+    header {
+      padding: 5rem 0;
+    }
+
+    .pop-cat {
+      p {
+        font-size: 1em;
+      }
+    }
+
+    .pop_goods {
+      .row {
+        .title {
+          margin: 0;
+        }
+
+        h4 {
+          padding: 1rem;
+          margin: 1rem 3rem;
+        }
+
+        padding-bottom: 0;
+
+        div {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+
+    footer {
+      a {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    .title {
+
+      &::before,
+      &::after {
+        content: '';
+        display: none;
+      }
+    }
+  }
+
+  header {
+    p {
+      font-size: 0.8em;
+    }
+  }
+}
